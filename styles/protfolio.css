@@ -1,0 +1,52 @@
+/* common sheared styles */
+body {
+
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.btn-primary {
+
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    height: 15px 35px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-primary{
+    color: #FD6E0A;
+}
+/* nav related styles */
+nav {
+    display: flex;
+}
+
+.nav-title{
+    color: black;
+    font-size: 45px;
+    font-weight: 800;
+
+}
+nav > ul {
+    display: flex;
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(91, 102, 122);
+}
